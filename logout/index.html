@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>iTEC: Home</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/spacers.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyB8Z-saUeQhf_VbQfDWv-70mSiDIe1k2GA",
+        authDomain: "ihsitec-authserver-web.firebaseapp.com",
+        databaseURL: "https://ihsitec-authserver-web.firebaseio.com",
+        storageBucket: "ihsitec-authserver-web.appspot.com",
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/navbar.min.js"></script>
+    <script src="../js/logoutpage.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="menubar">
+            <div class="box left"><span class="link" data-go="/">HOME</span>&emsp;&emsp;<span class="link" data-go="/events">EVENTS</span></div>
+            <div class="brand">ITEC</div>
+            <div class="box right"><span class="link" data-go="/learn">LEARN</span>&emsp;&emsp;<span class="link" id="logins" data-go="/login">LOGIN</span></div>
+            <div class="avatar"></div>
+        </div>
+        <div class="spacer twelve"></div>
+        <div id="nav-mobile">
+            <div class="links">
+                <p><span class="link" data-go="/">HOME</span></p>
+                <p><span class="link" data-go="/events">EVENTS</span></p>
+                <p><span class="link" data-go="/learn">LEARN</span></p>
+                <p><span class="link" data-go="/login" id="logins-mobile">LOGIN</span></p>
+            </div>
+        </div>
+        <div class="login-form">
+            <h1>LOGGING YOU OUT...</h1>
+            <div class="badness">ERROR 404: Failure..</div>
+        </div>
+        <footer><br>
+            <div>&copy;2016-17 Irvington Technology Enthusiasts Club. All rights reserved. <br>Connect with us! ihsitec[@]gmail.com
+                (no brackets) or follow us on Twitter @ihsitec.<br>Website coded from scratch by <a href="https://applecrazy.github.io/">AppleCrazy</a>.</div>
+            <br></footer>
+    </div>
+</body>
+
+</html>

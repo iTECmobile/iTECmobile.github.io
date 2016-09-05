@@ -1,0 +1,43 @@
+body {
+    margin:0;
+    background-color: black;
+    color: white;
+    font-family: Montserrat, Arial, sans-serif;
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+.slide {
+    width: 100vw;
+    height: 88vh;
+}
+.slide.one {
+    background-image: url(../media/codeimg.png);
+    background-size: cover;
+    text-align: center;
+    font-size: 10vh;
+    display: -webkit-flex;
+    display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+
+}
+.slide.two {
+    background-image: url(../media/coder.jpg);
+    background-size: cover;
+    display: -webkit-flex;
+    display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+    text-align: center;
+    font-size: 5vh;
+}
+
+underline {
+    text-decoration: underline;
+}

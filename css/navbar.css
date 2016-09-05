@@ -1,0 +1,79 @@
+#menubar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid white;
+    display: -webkit-flex;
+    display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+#menubar .brand {
+    font-size: 9vh;
+    text-align: center;
+    width: 30vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+#menubar .box {
+    width: 35vw;
+    font-size: 3vh;
+}
+.link {
+    cursor: pointer;
+}
+#menubar .box.right {
+    text-align: left;
+    width: 27vw;
+}
+#menubar .box.left {
+    text-align: right;
+}
+#menubar .avatar {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 2vw;
+    background-size: cover;
+    /* image for debug purposes below */
+    /*background-image: url(../Apple_gray_logo.png);*/
+    border-radius: 1000px;
+}
+#nav-mobile {
+    padding-top: 50px;
+    margin: 0;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    font-size: 5em;
+    height: 450px;
+    text-align: center;
+    display: table;
+    line-height: 20pt;
+    display: none;
+}
+#nav-mobile .links {
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+footer {
+    margin:0;
+    text-align: center;
+    width: 100vw;
+    /*height: 200px;*/
+    color: rgb(200, 200, 200);
+    background-color: rgb(64, 64, 64);
+    display: table;
+    vertical-align: middle;
+    line-height: 20pt;
+}
+a {
+    text-decoration: none;
+    color: #0066ff;
+}

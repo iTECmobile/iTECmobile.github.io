@@ -1,0 +1,39 @@
+body { 
+	padding-top: 30px; 
+	font-family: Aileron, 'aileronregular', sans-serif;
+	color: white;
+	background-color: #101010;
+}
+.text-nav-white {
+  color: white !important;
+}
+.jumbotron {
+  font-family: Aileron, 'aileronlight', sans-serif;
+  position: relative;
+  
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+}
+.jumbotron-code {
+  background: #000 url("../img/codeimg.png");
+}
+.jumbotron .container {
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.jumbotron h1 {
+  font-family: Aileron, 'aileronbold' sans-serif;
+}
+.jumbotron p {
+    font-weight: 100;
+}
+footer {
+  width: 100%;
+}

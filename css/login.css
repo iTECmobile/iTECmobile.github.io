@@ -1,0 +1,55 @@
+body {
+    margin:0;
+    background-color: black;
+    color: white;
+    font-family: Montserrat, Arial, sans-serif;
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+.login-form {
+    width: calc(100vw - 40px);
+    /*min-height: 300px;*/
+    /*text-align: center;*/
+    padding-left: 40px;
+}
+h1{
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+.badness {
+    padding: 10px;
+    background-color: #A51C30;
+    display: none;
+}
+input.field {
+    outline: none;
+    border: none;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px dotted white;
+    min-height: calc(2em + 5px);
+    min-width: 80px;
+    font-size: 2em;
+    border-radius: 2px;
+}
+input.field:focus {
+    border: none;
+    border-bottom: 1px solid white;
+}
+input[type="submit"] {
+    outline: none;
+    border: none;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: transparent;
+    color: #0066ff;
+    font-size: 2em;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    color: white;
+}

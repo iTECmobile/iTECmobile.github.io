@@ -1,0 +1,40 @@
+.spacer {
+    width: 100vw;
+    display: block;
+}
+.spacer.one {
+    height: 1vh;
+}
+.spacer.two {
+    height: 2vh;
+}
+.spacer.three {
+    height: 3vh;
+}
+.spacer.four {
+    height: 4vh;
+}
+.spacer.five {
+    height: 5vh;
+}
+.spacer.six {
+    height: 6vh;
+}
+.spacer.seven {
+    height: 7vh;
+}
+.spacer.eight {
+    height: 8vh;
+}
+.spacer.nine {
+    height: 9vh;
+}
+.spacer.ten {
+    height: 10vh;
+}
+.spacer.eleven {
+    height: 11vh;
+}
+.spacer.twelve {
+    height: 12vh;
+}

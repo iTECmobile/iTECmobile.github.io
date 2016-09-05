@@ -1,0 +1,29 @@
+body {
+    margin:0;
+    background-color: #e2e1e0;
+    color: black;
+    font-family: Montserrat, Arial, sans-serif;
+}
+#container {
+    width: 100vw;
+    min-height: 100vh;
+}
+.events {
+    padding: 10px;
+    min-height: 50vh;
+}
+.events .event {
+    width: calc(100vw - 40px);
+    min-height: 120px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: 1px 10px 15px 10px;
+}
+.events .event:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.event .date {
+    font-size: .7em;
+    display: inline;
+}

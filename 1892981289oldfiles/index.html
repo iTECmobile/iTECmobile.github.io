@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <title>iTEC: Coming Soon</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Montserrat, Helvetica, Arial, sans-serif;
+        }
+
+        .center {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .copy {
+            position: absolute;
+            bottom: 12%;
+            left: 50%;
+            font-size: 10px;
+            transform: translate(-50%,0%);
+        }
+        footer {
+            font-size: 10px;
+            color: #919191;
+            position: fixed;
+            bottom: 10px;
+            text-align: center;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%,0%);
+        }
+        .info {
+          font-size: 17pt;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+        <img src="itec-logo.png" style="width:30%; height: auto;" class="center">
+        <div class="copy"><h1>COMING FALL 2016</h1></div>
+        <footer><p class="info"><i class="fa fa-info-circle"></i></p><div class="moreinfo">iTEC Logo &copy;2016 Irvington Technology Enthusiasts Club. No part of this page may be reproduced or recreated without the permission of the webmaster. <p>Email us at ihsitec@gmail.com. Designed by <a href="https://github.com/applecrazy">AppleCrazy.</a></p></div></footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.moreinfo').hide();
+    });
+    $('.info').click(function () {
+      $('.info').hide();
+      $('.moreinfo').show();
+    });
+</script>
+</html>
